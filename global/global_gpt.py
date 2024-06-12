@@ -2,6 +2,10 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 import pickle
+import logging
+import os
+
+logging.basicConfig(filename="../federate.log", level = logging.INFO)
 
 # hyperparameters
 batch_size = 64 # how many independent sequences will we process in parallel?
@@ -17,7 +21,10 @@ n_layer = 6
 dropout = 0.2
 # ------------
 
+
 torch.manual_seed(1337)
+
+logging.info("Working on dataset: tinyshakespeare")
 
 # wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
 with open('input.txt', 'r', encoding='utf-8') as f:
@@ -43,7 +50,7 @@ vocab = {
     'itos' : itos
 }
 
-with open('vocab.pkl', 'wb') as f:
+with open('../critical/vocab.pkl', 'wb') as f:
     pickle.dump(vocab, f)
 
 # Train and test splits
@@ -210,20 +217,36 @@ class GPTLanguageModel(nn.Module):
             idx = torch.cat((idx, idx_next), dim=1) # (B, T+1)
         return idx
 
-model = GPTLanguageModel()
-m = model.to(device)
+logging.info("Init Model")
+
+model_path = "../models/global_model.pth"
+
+# first model
+if not os.path.exists(model_path):
+    model = GPTLanguageModel()
+    m = model.to(device)
+    logging.info(f"Init blank model: {model_path} doesn't exist.")
+# second iteration and forward
+else:
+    model = GPTLanguageModel()
+    model.load_state_dict(torch.load(model_path))
+    m = model.to(device)
+    logging.info(f"Load pretrained model: {model_path} does exist.")
+
 # print the number of parameters in the model
-print(sum(p.numel() for p in m.parameters())/1e6, 'M parameters')
+message = f"{sum(p.numel() for p in m.parameters())/1e6} M parameters" 
+logging.info(message)
 
 # create a PyTorch optimizer
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 
+logging.info("Begin global training...")
 for iter in range(max_iters):
-
     # every once in a while evaluate the loss on train and val sets
     if iter % eval_interval == 0 or iter == max_iters - 1:
         losses = estimate_loss()
-        print(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
+        # print(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
+        logging.info(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")        
 
     # sample a batch of data
     xb, yb = get_batch('train')
@@ -234,23 +257,28 @@ for iter in range(max_iters):
     loss.backward()
     optimizer.step()
 
-# saving the model
-model_path = "global_model.pth"
+# saving the model to the models dir
+# model_path = "global_model.pth"
 torch.save(model.state_dict(), model_path)
 print(f"Model saved as {model_path}")
+logging.info(f"Model saved to {model_path}")
 
 # generate from the model
 context = torch.zeros((1, 1), dtype=torch.long, device=device)
-print(decode(m.generate(context, max_new_tokens=500)[0].tolist()))
+# print(decode(m.generate(context, max_new_tokens=500)[0].tolist()))
+
+logging.info("Sample shakespeare extract")
+logging.info(decode(m.generate(context, max_new_tokens=500)[0].tolist()))
+
 # open('more.txt', 'w').write(decode(m.generate(context, max_new_tokens=10000)[0].tolist()))
 
 ######################### CHECKING THE LOADOUT #####################
 # Load the model
-model = GPTLanguageModel()
-model.load_state_dict(torch.load('global_model.pth'))
-model.to(device)
+# model = GPTLanguageModel()
+# model.load_state_dict(torch.load('global_model.pth'))
+# model.to(device)
 
-# Generate text to verify it has learned from both datasets
-context = torch.zeros((1, 1), dtype=torch.long, device=device)
-generated_text = decode(model.generate(context, max_new_tokens=500)[0].tolist())
-print(generated_text)
+# # Generate text to verify it has learned from both datasets
+# context = torch.zeros((1, 1), dtype=torch.long, device=device)
+# generated_text = decode(model.generate(context, max_new_tokens=500)[0].tolist())
+# print(generated_text)

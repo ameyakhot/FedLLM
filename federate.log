@@ -1,0 +1,46 @@
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 499: train loss 1.1661, val loss 1.4337
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Tinyshakespeare trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 499: train loss 0.1744, val loss 2.6078
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Tinyshakespeare trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 0 complete.
+INFO:root:Removed client models after fedavg.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 499: train loss 1.1661, val loss 1.4337
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Tinyshakespeare trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 499: train loss 0.1744, val loss 2.6078
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Tinyshakespeare trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 1 complete.
+INFO:root:Removed client models after fedavg.

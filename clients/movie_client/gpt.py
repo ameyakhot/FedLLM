@@ -2,11 +2,15 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 import pickle
+import logging
+import os
+
+logging.basicConfig(filename="../../federate.log", level = logging.INFO, filemode = "a")
 
 # hyperparameters
 batch_size = 64 # how many independent sequences will we process in parallel?
 block_size = 256 # what is the maximum context length for predictions?
-max_iters = 2500 # originally 5000. Sample testing with 500 first. 
+max_iters = 500 # originally 5000. Sample testing with 500 first. 
 eval_interval = 500
 learning_rate = 3e-4
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -20,11 +24,12 @@ vocab_size = 97
 
 torch.manual_seed(1337)
 
-# wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
+logging.info("Working on dataset: cornell movies")
+
 with open('movie36k_preprocessed.txt', 'r', encoding='utf-8') as f:
     text = f.read()
 
-with open('vocab.pkl', 'rb') as f:
+with open('../../critical/vocab.pkl', 'rb') as f:
     vocab = pickle.load(f)
     stoi = vocab['stoi']
     itos = vocab['itos']
@@ -195,22 +200,37 @@ class GPTLanguageModel(nn.Module):
             idx = torch.cat((idx, idx_next), dim=1) # (B, T+1)
         return idx
 
-model_path = "./global_model.pth"
-model = GPTLanguageModel()
-model.load_state_dict(torch.load(model_path))
-m = model.to(device)
+logging.info("Init Model: movies_gpt")
+
+model_path = "../../models/global_model.pth"
+
+# model_path = "./global_model.pth"
+
+if not os.path.exists(model_path):
+    logging.info("Global Model Not Received")
+    exit()
+else:
+    model = GPTLanguageModel()
+    model.load_state_dict(torch.load(model_path))
+    m = model.to(device)
+    logging.info("Loading global_model for movie_client")
+
 # # print the number of parameters in the model
-print(sum(p.numel() for p in m.parameters())/1e6, 'M parameters')
+message = f"{sum(p.numel() for p in m.parameters())/1e6} M parameters" 
+logging.info(message)
 
 # create a PyTorch optimizer
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 
+logging.info("Begin movie client training...")
 for iter in range(max_iters):
 
     # every once in a while evaluate the loss on train and val sets
     if iter % eval_interval == 0 or iter == max_iters - 1:
         losses = estimate_loss()
-        print(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
+        # print(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
+        logging.info(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")        
+
 
     # sample a batch of data
     xb, yb = get_batch('train')
@@ -222,11 +242,14 @@ for iter in range(max_iters):
     optimizer.step()
 
 # saving the model
-model_path = "edge_model_movies.pth"
+model_path = "../../models/edge_model_movies.pth"
 torch.save(m.state_dict(), model_path)
 print(f"Model saved as {model_path}")
+logging.info(f"Model saved as {model_path}")
 
 # generate from the model
 context = torch.zeros((1, 1), dtype=torch.long, device=device)
+logging.info("Movie trial generation")
 print(decode(m.generate(context, max_new_tokens=500)[0].tolist()))
-open('more.txt', 'w').write(decode(m.generate(context, max_new_tokens=10000)[0].tolist()))
+# logging.info("Tinyshakespeare trial generation")
+# print(open('shakespeare.txt', 'w').write(decode(m.generate(context, max_new_tokens=500)[0].tolist())))
