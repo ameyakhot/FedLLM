@@ -7,11 +7,16 @@ import subprocess
 import concurrent.futures
 import os
 from gpt import GPTLanguageModel
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+
+
 logger = logging.getLogger(__name__)
 
 logging.basicConfig(filename="../federate.log", level = logging.INFO)
 
-num_rounds = 2
+num_rounds = 75
 
 def send_global_model_to_clients(model):
     # copy global_model from global to clients
@@ -75,6 +80,29 @@ def run_client_local_models():
 #         # Wait for all futures to complete
 #         concurrent.futures.wait(futures)
 #     return True
+
+def send_email_notification(round_number):
+    sender_email = "ameyakhot18@gmail.com"
+    receiver_email = "ameyakhot18@gmail.com"
+    password = os.environ.get('EMAIL_PWD')
+    
+    subject = f"Federated Learning Round {round_number} Completed"
+    body = f"The federated learning process has completed {round_number} rounds."
+
+    msg = MIMEMultipart()
+    msg['From'] = sender_email
+    msg['To'] = receiver_email
+    msg['Subject'] = subject
+    msg.attach(MIMEText(body, 'plain'))
+    
+    try:
+        with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
+            server.login(sender_email, password)
+            server.sendmail(sender_email, receiver_email, msg.as_string())
+            logging.info(f"Email sent for round {round_number}")
+    except Exception as e:
+        logging.error(f"Failed to send email: {e}")
+
 
 def federated_averaging(global_model, client_models):
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -148,4 +176,6 @@ for round in range(num_rounds):
     # logging.info(f"Model saved as {model_path}")
     logging.info(f"FEDERATE: Round {round} complete.")
     # clear_files(client_model_paths)
-    logging.info("Removed client models after fedavg.")
+    # logging.info("Removed client models after fedavg.")
+    if round+1 % 25 == 0:
+        send_email_notification(round+1)

@@ -4,43 +4,2039 @@ INFO:root:Loading global_model for movie_client
 INFO:root:10.813537 M parameters
 INFO:root:Begin movie client training...
 INFO:root:step 0: train loss 3.1380, val loss 3.1541
-INFO:root:step 499: train loss 1.1661, val loss 1.4337
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
 INFO:root:Model saved as ../../models/edge_model_movies.pth
 INFO:root:Movie trial generation
-INFO:root:Tinyshakespeare trial generation
 INFO:root:Working on dataset: research papers dataset
 INFO:root:Init Model: movies_gpt
 INFO:root:Loading global_model for movie_client
 INFO:root:10.813537 M parameters
 INFO:root:Begin research client training...
 INFO:root:step 0: train loss 3.1535, val loss 3.2172
-INFO:root:step 499: train loss 0.1744, val loss 2.6078
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
 INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
 INFO:root:Research trial generation
-INFO:root:Tinyshakespeare trial generation
 INFO:root:Global Model saved as ../models/global_model.pth
 INFO:root:FEDERATE: Round 0 complete.
-INFO:root:Removed client models after fedavg.
 INFO:root:Working on dataset: cornell movies
 INFO:root:Init Model: movies_gpt
 INFO:root:Loading global_model for movie_client
 INFO:root:10.813537 M parameters
 INFO:root:Begin movie client training...
 INFO:root:step 0: train loss 3.1380, val loss 3.1541
-INFO:root:step 499: train loss 1.1661, val loss 1.4337
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
 INFO:root:Model saved as ../../models/edge_model_movies.pth
 INFO:root:Movie trial generation
-INFO:root:Tinyshakespeare trial generation
 INFO:root:Working on dataset: research papers dataset
 INFO:root:Init Model: movies_gpt
 INFO:root:Loading global_model for movie_client
 INFO:root:10.813537 M parameters
 INFO:root:Begin research client training...
 INFO:root:step 0: train loss 3.1535, val loss 3.2172
-INFO:root:step 499: train loss 0.1744, val loss 2.6078
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
 INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
 INFO:root:Research trial generation
-INFO:root:Tinyshakespeare trial generation
 INFO:root:Global Model saved as ../models/global_model.pth
 INFO:root:FEDERATE: Round 1 complete.
-INFO:root:Removed client models after fedavg.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 2 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 3 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 4 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 5 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 6 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 7 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 8 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 9 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 10 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 11 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 12 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 13 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 14 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 15 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 16 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 17 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 18 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 19 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 20 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 21 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 22 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 23 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 24 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 25 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 26 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 27 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 28 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 29 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 30 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 31 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 32 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 33 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 34 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 35 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 36 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 37 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 38 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 39 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 40 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 41 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 42 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 43 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 44 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 45 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 46 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 47 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 48 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 49 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 50 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 51 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
+INFO:root:step 2500: train loss 0.0500, val loss 3.9894
+INFO:root:step 3000: train loss 0.0485, val loss 4.1748
+INFO:root:step 3500: train loss 0.0478, val loss 4.1872
+INFO:root:step 4000: train loss 0.0467, val loss 4.2659
+INFO:root:step 4500: train loss 0.0455, val loss 4.2581
+INFO:root:step 4999: train loss 0.0449, val loss 4.4207
+INFO:root:Model saved as ../../models/edge_model_scientific_papers.pth
+INFO:root:Research trial generation
+INFO:root:Global Model saved as ../models/global_model.pth
+INFO:root:FEDERATE: Round 52 complete.
+INFO:root:Working on dataset: cornell movies
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin movie client training...
+INFO:root:step 0: train loss 3.1380, val loss 3.1541
+INFO:root:step 500: train loss 1.1651, val loss 1.4334
+INFO:root:step 1000: train loss 1.0970, val loss 1.3993
+INFO:root:step 1500: train loss 1.0535, val loss 1.3784
+INFO:root:step 2000: train loss 1.0184, val loss 1.3568
+INFO:root:step 2500: train loss 0.9908, val loss 1.3497
+INFO:root:step 3000: train loss 0.9703, val loss 1.3650
+INFO:root:step 3500: train loss 0.9508, val loss 1.3693
+INFO:root:step 4000: train loss 0.9281, val loss 1.3636
+INFO:root:step 4500: train loss 0.9107, val loss 1.3741
+INFO:root:step 4999: train loss 0.8949, val loss 1.3692
+INFO:root:Model saved as ../../models/edge_model_movies.pth
+INFO:root:Movie trial generation
+INFO:root:Working on dataset: research papers dataset
+INFO:root:Init Model: movies_gpt
+INFO:root:Loading global_model for movie_client
+INFO:root:10.813537 M parameters
+INFO:root:Begin research client training...
+INFO:root:step 0: train loss 3.1535, val loss 3.2172
+INFO:root:step 500: train loss 0.1743, val loss 2.5957
+INFO:root:step 1000: train loss 0.0646, val loss 3.4024
+INFO:root:step 1500: train loss 0.0568, val loss 3.7118
+INFO:root:step 2000: train loss 0.0523, val loss 3.8794
